@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
    <div>
-    <Navbar/>
+    <nav>
             <div className="left">
                  <Link to="/admin"><h2>Shopy</h2></Link>
             </div>
@@ -37,7 +37,7 @@ const Home = () => {
               {/* <Link to="/admin/products/add">Add new Product</Link> */}
               <Link to="/Cart"><i class="ri-shopping-cart-fill"></i></Link>
             </div>
-        
+        </nav>
 
      <div className="container">
 
