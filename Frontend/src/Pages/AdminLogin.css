@@ -1,0 +1,23 @@
+.admin-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.admin-login input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.admin-login button {
+  padding: 10px 20px;
+  background-color: #60c657;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#ff{
+    background-color: rgb(194, 222, 222);
+}

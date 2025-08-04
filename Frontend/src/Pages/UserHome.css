@@ -44,7 +44,7 @@ a{
 
 h4{
   position: relative;
-  bottom: -23px
+  /* bottom: -23px; */
 }
 
 nav {
@@ -65,8 +65,28 @@ nav .search input {
     border: none;
 }
 
-.right{
+/* .right{
     position: relative;
+    display: flex;
+    justify-content: space-between; */
     /* right : -260px; */
     /* top : 10px */
+/* } */
+.login-text {
+  font-size: 18px;
+  /* line-height: 1; */
+}
+
+.right {
+  display: flex;
+  /* align-items: center; */
+  gap: 20px; /* spacing between cart and login */
+  /* position: relative; */
+}
+
+.right a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  align-items: center;
 }

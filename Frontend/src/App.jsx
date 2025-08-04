@@ -10,6 +10,8 @@ import Cart from './Pages/Cart'
 import UserProduct from './Pages/UserProduct'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./Pages/CartContext";
+import Register from './Pages/login'
+import AdminLogin from './Pages/AdminLogin';
 
 
 const App = () => {
@@ -21,9 +23,12 @@ const App = () => {
           <Route path='/' element={<UserHome/>}/>
           <Route path="/products/detail/:productId" element={<UserProduct/>} />
           <Route path="/cart" element={<Cart />} />
-          <Route  path='/admin/' element={<Home/>}/>
+          {/* <Route  path='/admin/' element={<Home/>}/> */}
+          <Route path='/admin' element={<AdminLogin />} />
+
           <Route  path='/admin/products/add' element={<AddProducts/>}/>
           <Route  path='/admin/products/detail/:productId'  element={<ProductDetail/>}/>
+          <Route  path='/users' element={<Register/>}/>
           </Routes>
       {/* </Router> */}
     {/* </CartProvider> */}
