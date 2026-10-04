@@ -10,7 +10,7 @@ const Cart = () => {
   }, []);
 
   const fetchCart = () => {
-    axios.get('http://localhost:3000/cart')
+    axios.get('https://project-ecommerce-react-c77l.onrender.com/cart')
       .then((response) => {
         const grouped = groupByProduct(response.data);
         setCart(grouped);

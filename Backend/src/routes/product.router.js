@@ -9,8 +9,9 @@ const router = express.Router();
 
 
 
-router.get("/", (req, res) => {
-
+router.get("/", async (req, res) => {
+  const products = await productModel.find();
+  res.status(200).json({ message: "data found", products });
 });
 
 

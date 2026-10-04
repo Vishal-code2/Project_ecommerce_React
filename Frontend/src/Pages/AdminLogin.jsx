@@ -19,7 +19,7 @@ const AdminLogin = () => {
   return (
     <div className="admin-login">
       <h2>Admin Login</h2>
-      <h4>Admin password:-"1234"</h4>
+      
       <form id="ff" onSubmit={handleSubmit}>
         <input
           type="password"
